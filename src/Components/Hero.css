@@ -1,0 +1,344 @@
+@media only screen and (min-width:1px) {
+    .herosection {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        padding-top: 60px;
+    }
+    .hero-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-sec {
+        width: 100%;
+    }
+    .person-img{
+        width: 40vw;
+        height: 40vw;
+        object-fit: cover;
+        object-position: top center;
+        background-color: rgb(70, 70, 70);
+        box-sizing: border-box;
+        border: 0.1px solid rgb(70, 70, 70);
+        border-radius: 100px;
+        box-shadow: 4px 4px 10px 0px rgb(27, 27, 27);
+        animation: swipeup 0.8s ease-in-out forwards;
+    }
+    .right-sec {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding-top: 10px;
+    }
+    .hero-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heroh1{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 2px;
+        box-sizing: border-box;
+        margin: 5px 0px 0px 0px;
+        color: rgb(219, 219, 219);
+        animation: zoomIn 1.1s ease-in-out forwards;
+    }
+    .heroh2{
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 33px;
+        box-sizing: border-box;
+        margin: 5px 0px 0px 0px;
+        color: rgb(148, 186, 241);
+        animation: pop 0.8s ease-out;
+    }
+    .herop{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0px 10px;
+        margin: 12px 0px 0px 0px;
+    }
+    .herobtn{
+        font-size: 14px;
+        padding: 0px 13px;
+        margin: 25px 0px 30px 0px;
+        border: 0.1px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(125, 170, 238);
+    }
+    @keyframes zoomIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes pop {
+        0% {
+            transform: scale(0); /* Original size */
+        }
+        50% {
+            transform: scale(1.1); /* Expand to 130% of the size */
+        }
+        75% {
+            transform: scale(0.9); /* Slight contraction for bounce effect */
+        }
+        100% {
+            transform: scale(1); /* Return to the original size */
+        }
+    }
+    @keyframes swipeup {
+        0% {
+            opacity: 0;
+            transform: translateY(50%); /* Start from the right edge */
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0%); /* End at the original position */
+        }
+    }
+}
+@media only screen and (min-width:431px) {
+    .herosection {
+        padding-top: 60px;
+    }
+    .person-img{
+        width: clamp(10.625rem, 9.0216rem + 5.9524vw, 11.25rem);
+        height: clamp(10.625rem, 9.0216rem + 5.9524vw, 11.25rem);
+        /* 170-180 */
+        border-radius: 200px;
+    }
+    .heroh1{
+        font-size: 32px;
+        font-weight: 800;
+        margin: 5px 0px 0px 0px;
+        letter-spacing: 2px;
+    }
+    .heroh2{
+        font-size: 22px;
+        /* font-size: 32px; */
+        margin: 5px 0px 0px 0px;
+    }
+    .herop{
+        font-size: 14px;
+        margin: 12px 0px 0px 0px;
+    }
+    .herobtn{
+        font-size: 14px;
+        padding: 0px 15px;
+        margin: 30px 0px 30px 0px;
+        border: 1px solid transparent;
+    }
+}
+@media only screen and (min-width:600px) {
+    .herosection {
+        width: 100vw;
+        flex-direction: row-reverse;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .left-sec {
+        width: 29%;
+        /* background-color: green; */
+    }
+    .right-sec {
+        width: 65%;
+        box-sizing: border-box;
+        /* background-color: blue; */
+    }
+    .person-img{
+        width: 160px;
+        height: 160px;
+        animation: swipeLeft 0.8s ease-in-out forwards;
+    }
+    .hero-content{
+        align-items: flex-start;
+        /* background-color: gray; */
+        gap: 0px;
+    }
+    .heroh1{
+        font-size: 31px;
+        margin: 0px;
+    }
+    .heroh2{
+        font-size: 22px;
+        margin: 5px 0px 0px 0px;
+    }
+    .herop{
+        font-size: 14px;
+        padding: 0px 15px 0px 0px;
+        text-align: start;
+        margin: 12px 0px 0px 0px;
+    }
+    .herobtn{
+        font-size: 14px;
+        padding: 1px 16px;
+        margin: 20px 0px 0px 0px;
+    }
+    @keyframes swipeLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(100%); /* Start from the right edge */
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%); /* End at the original position */
+        }
+    }
+}
+@media only screen and (min-width:800px) {
+    .herosection {
+        width: 100vw;
+        flex-direction: row-reverse;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .left-sec {
+        width: 28%;
+        /* background-color: green; */
+    }
+    .right-sec {
+        width: 66%;
+        /* background-color: blue; */
+        padding: 0px 0px 0px 10px;
+    }
+    .person-img{
+        width: 180px;
+        height: 180px;
+    }
+    .hero-content{
+        align-items: flex-start;
+        /* background-color: gray; */
+        gap: 5px;
+    }
+    .heroh1{
+        font-size: 35px;
+        margin: 0px;
+    }
+    .heroh2{
+        font-size: 24px;
+        margin: 4px 0px 0px 0px;
+    }
+    .herop{
+        font-size: 14px;
+        padding: 0px 0px;
+        text-align: start;
+        margin: 12px 0px 0px 0px;
+        /* font-size: 18px; */
+    }
+    .herobtn{
+        font-size: 14px;
+        padding: 0px 15px;
+        border: 0.1px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(125, 170, 238);
+        margin: 20px 0px 0px 0px;
+    }
+    .herobtn:hover{
+        background-color: rgb(108, 154, 223);
+    }
+    .herobtn:active{
+        background-color: rgb(125, 170, 238);
+    }
+}
+@media only screen and (min-width:1000px) {
+    .herosection {
+        width: 100vw;
+        flex-direction: row-reverse;
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+    .left-sec {
+        /* background-color: yellow; */
+        width: 25%;
+    }
+    .right-sec {
+        /* background-color: green; */
+        width: 68%;
+        padding: 0px 0px 0px 30px;
+    }
+    .person-img{
+        width: 190px;
+        height: 190px;
+    }
+    .hero-content{
+        align-items: flex-start;
+        /* background-color: gray; */
+        gap: 2px;
+    }
+    .heroh1{
+        /* font-size: clamp(2.9375rem, 2.9375rem + 0vw, 2.9375rem); */
+        font-size: 39px;
+        margin: 0px;
+    }
+    .heroh2{
+        /* font-size: clamp(2.0625rem, 2.0625rem + 0vw, 2.0625rem); */
+        font-size: 27px;
+        margin: 4px 0px 0px 0px;
+    }
+    .herop{
+        font-size: 14px;
+        padding: 0px 40px 0px 0px;
+    }
+    .herobtn{
+        font-size: 14px;
+    }
+    .herobtn:hover{
+        background-color: rgb(108, 154, 223);
+    }
+    .herobtn:active{
+        background-color: rgb(125, 170, 238);
+    }
+}
+@media only screen and (min-width:1200px) {
+    .person-img{
+        width: 200px;
+        height: 200px;
+    }
+    .heroh1{
+        font-size: 42px;
+    }
+    .heroh2{
+        font-size: 29px;
+    }
+    .herop{
+        font-size: 15px;
+    }
+    .herobtn{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:1400px) {
+    .person-img{
+        width: 220px;
+        height: 220px;
+    }
+    .heroh1{
+        font-size: 44px;
+    }
+    .heroh2{
+        font-size: 31px;
+    }
+    .herop{
+        font-size: 17px;
+    }
+    .herobtn{
+        font-size: 17px;
+    }
+}

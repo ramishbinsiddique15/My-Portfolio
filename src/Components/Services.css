@@ -1,0 +1,268 @@
+@media only screen and (min-width:1px) {
+    .services-full{
+        width: 100vw;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding-top: 30px;
+    } 
+    .service-box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 20px;
+    }
+    .Services-head {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+    }
+    .services-para{
+        padding: 0px 10px;
+        text-align: center;
+        font-size: 14px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .services {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0px 16px;
+        gap: 20px;
+    }
+    .service {
+     border: 1px solid wheat;
+     background-color: rgba(129, 129, 129, 0.103);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     padding: 10px 0px;
+     border: 0.1px solid transparent;
+     border-radius: 10px;
+     gap: 10px;
+    }
+    .service-img {
+     width: clamp(3.125rem, 2.2269rem + 4.5045vw, 3.4375rem);
+     height: clamp(3.125rem, 2.2269rem + 4.5045vw, 3.4375rem);
+     border: 0.1px solid transparent;
+     border-radius: 10px;
+     object-fit: contain;
+     box-sizing: border-box;
+    }
+    .service-heading {
+      text-align: center;
+      font-size: 17px;
+      font-weight: 600;
+      color: rgb(125, 170, 238);
+    }
+    .service-text {
+        padding: 0px 10px;
+        text-align: center;
+        font-size: 14px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .service-btn{
+        font-size: 14px;
+        padding: 1px 13px;
+        margin: 30px 0px 30px 0px;
+        border: 0.1px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(125, 170, 238);
+    }
+}
+@media only screen and (min-width:431px) {
+    .Services-head {
+        font-size: 25px;
+    }
+    .services-para{
+        font-size: 14px;
+    }
+    .service {
+        gap: 12px;
+    }
+    .service-img {
+        width: 55px;
+        height: 55px;
+    }
+    .service-heading {
+        font-size: 17px;
+        /* font-size: 25px; */
+    }
+    .service-text {
+        font-size: 14px;
+    }
+    .service-btn{
+        font-size: 14px;
+        padding: 1px 15px;
+    }
+}
+@media only screen and (min-width:600px) {
+    .Services-head {
+        font-size: 27px;
+    }
+    .services-para{
+        font-size: 14px;
+        padding: 0px clamp(1.25rem, -4.4033rem + 15.0754vw, 3.125rem);
+    }
+    .services {
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: clamp(0.5rem, -0.8191rem + 3.5176vw, 0.9375rem);
+    }
+    .service {
+        gap: 15px;
+        width: clamp(17.5rem, 8.0779rem + 25.1256vw, 20.625rem);
+        /*  280-310px; */
+        height: clamp(21.875rem, 27.5283rem + -15.0754vw, 20rem);
+    }
+    .service-img {
+        width: 55px;
+        height: 55px;
+        padding: 0px;
+    }
+    .service-heading {
+        font-size: 18px;
+    }
+    .service-text {
+        font-size: 14px;
+    }
+    .service-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+        margin: 10px 0px 30px 0px;
+    }
+}
+@media only screen and (min-width:800px) {
+    .Services-head {
+        font-size: 29px;
+    }
+    .services-para{
+        font-size: 14px;
+        padding: 0px clamp(2.5rem, -5.0377rem + 15.0754vw, 4.375rem);
+    }
+    .services {
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .service {
+        gap: 15px;
+        /* background-color: rgb(25, 94, 71); */
+        width: clamp(23.125rem, 18.0999rem + 10.0503vw, 24.375rem);
+        height: 280px;
+    }
+    .service-img {
+        width: 55px;
+       height: 55px;
+        padding: 0px;
+    }
+    .service-heading {
+        font-size: 19px;
+    }
+    .service-text {
+        font-size: 14px;
+    }
+    .service-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+    }
+    .service-btn:hover{
+    background-color: rgb(108, 154, 223);
+    }
+    .service-btn:active{
+    background-color: rgb(125, 170, 238);
+    }
+}
+@media only screen and (min-width:1000px) {
+    .service-box {
+        width: 90%;
+    }
+    .Services-head {
+        font-size: 32px;
+    }
+    .services-para{
+        font-size: 14px;
+        padding: 0px 60px;
+    }
+    .services {
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .service {
+        gap: 15px;
+        width: clamp(25rem, 6.1558rem + 30.1508vw, 28.75rem);;
+        height: 270px;
+    }
+    .service-img {
+        height: clamp(3.75rem, 2.1796rem + 2.5126vw, 4.0625rem);
+        width: clamp(3.75rem, 2.1796rem + 2.5126vw, 4.0625rem);
+        padding: 0px;
+    }
+    .service-heading {
+        font-size: 20px;
+    }
+    .service-text {
+        font-size: 14px;
+    }
+    .service-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .services-para{
+        font-size: 15px;
+    }
+    .service {
+        gap: 15px;
+        width: clamp(25rem, 6.1558rem + 30.1508vw, 28.75rem);;
+        height: 280px;
+    }
+    .service-heading {
+        font-size: 20px;
+    }
+    .service-text {
+        font-size: 15px;
+    }
+    .service-btn{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:1400px) {
+    .Services-head {
+        font-size: 33px;
+    }
+    .services-para{
+        font-size: 17px;
+    }
+    .service {
+        gap: 15px;
+        width: 440px;
+        height: 330px;
+    }
+    .service-heading {
+        font-size: 21px;
+    }
+    .service-text {
+        font-size: 17px;
+    }
+    .service-btn{
+        font-size: 17px;
+    }
+}

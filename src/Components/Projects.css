@@ -1,0 +1,322 @@
+@media only screen and (min-width:1px) {
+    .projects-full{
+        width: 100vw;
+        padding-top: 30px;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .projects-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        gap: 20px;
+    }
+    .projects-head{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+    }
+    .projects-txt{
+        padding: 0px 10px;
+        text-align: center;
+        font-size: 14px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0px 16px;
+        gap: 20px;
+    }
+    .project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: gray;
+    }
+    .project1{
+        background-image: url("/src/assets/spotify-bg.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .project2{
+        background-image: url("/src/assets/weather-bg.jpg");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    .project3{
+        background-image: url("/src/assets/task-bg.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .project-det{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.548);
+        padding: 15px 0px;
+        border-radius: 10px;
+        opacity: 1;
+        box-shadow: 0px 0px 90px 0px rgba(0, 0, 0, 0.445) inset;
+    }
+    .project-heading{
+        text-align: center;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .project-text{
+        padding: 0px 10px;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .project-btn{
+        font-size: 14px;
+        padding: 0px 13px;
+        border: 0.1px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(125, 170, 238);
+        margin: 0px 0px 10px 0px;
+    }
+    .projects-btn{
+        font-size: 14px;
+        padding: 1px 15px;
+        margin: 20px 0px 30px 0px;
+        border: 0.1px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(125, 170, 238);
+    }
+}
+@media only screen and (min-width:431px) {
+    .projects-head{
+        font-size: 25px;
+    }
+    .projects-txt{
+        font-size: 14px;
+    }
+    .projects{
+        padding: 0px 20px;
+        gap: 20px;
+    }
+    .project-heading{
+        font-size: 17px;
+    }
+    .project-text{
+        font-size: 14px;
+    }
+    .project-btn{
+        font-size: 14px;
+    }
+    .projects-btn{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:600px) {
+    .projects-head{
+        font-size: 27px;
+    }
+    .projects-txt{
+        font-size: 14px;
+        padding: 0px clamp(1.25rem, -4.4033rem + 15.0754vw, 3.125rem);
+    }
+    .projects{
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: clamp(0.5rem, -0.8191rem + 3.5176vw, 0.9375rem);
+    }
+    .project{
+        width: clamp(17.5rem, 8.0779rem + 25.1256vw, 20.625rem);
+        height: 230px;
+        border-radius: 20px;
+    }
+    .project-det{
+        width: clamp(17.5rem, 8.0779rem + 25.1256vw, 20.625rem);
+        height: 230px;
+        border-radius: 20px;
+    }
+    .project-heading{
+        font-size: 18px;
+    }
+    .project-text{
+        font-size: 14px;
+    }
+    .project-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+    }
+    .projects-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+    }
+}
+@media only screen and (min-width:800px) {
+    .projects-head{
+        font-size: 29px;
+    }
+    .projects-txt{
+        font-size: 14px;
+        padding: 0px clamp(2.5rem, -5.0377rem + 15.0754vw, 4.375rem);
+    }
+    .projects{
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .project{
+        width: 360px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    .project-det{
+        width: 360px;
+        height: 200px;
+        border-radius: 20px;
+        opacity: 1;
+        transition: all 0.2s ease-in-out 0s;
+        box-shadow: 0px 0px 0px 0px transparent inset;
+    }
+    .project-det:hover{
+        box-shadow: 0px 0px 90px 0px rgba(0, 0, 0, 0.445) inset;
+    }
+    .project-heading{
+        font-size: 19px;
+    }
+    .project-text{
+        font-size: 14px;
+    }
+    .project-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+    }
+    .project-btn:hover{
+        background-color: rgb(108, 154, 223);
+    }
+    .project-btn:active{
+        background-color: rgb(125, 170, 238);
+    }
+    .projects-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+    }
+    .projects-btn:hover{
+        background-color: rgb(108, 154, 223);
+    }
+    .projects-btn:active{
+        background-color: rgb(125, 170, 238);
+    }
+}
+@media only screen and (min-width:1000px) {
+    .projects-head{
+        font-size: 32px;
+    }
+    .projects-txt{
+        font-size: 14px;
+        padding: 0px 60px;
+    }
+    .projects{
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .project{
+        width: clamp(20.625rem, 1.7808rem + 30.1508vw, 24.375rem);;
+        height: 200px;
+        border-radius: 20px;
+    }
+    .project-det{
+        width: clamp(20.625rem, 1.7808rem + 30.1508vw, 24.375rem);;
+        height: 200px;
+        border-radius: 20px;
+    }
+    .project-heading{
+        font-size: 20px;
+    }
+    .project-text{
+        font-size: 14px;
+    }
+    .project-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+    }
+    .projects-btn{
+        font-size: 14px;
+        padding: 1px 16px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .projects-txt{
+        font-size: 15px;
+    }
+    .project{
+        width: clamp(20.625rem, 1.7808rem + 30.1508vw, 24.375rem);;
+        height: 205px;
+        border-radius: 20px;
+    }
+    .project-det{
+        width: clamp(20.625rem, 1.7808rem + 30.1508vw, 24.375rem);;
+        height: 205px;
+        border-radius: 20px;
+    }
+    .project-text{
+        font-size: 15px;
+    }
+    .project-btn{
+        font-size: 15px;
+    }
+    .projects-btn{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:1400px) {
+    .projects-head{
+        font-size: 33px;
+    }
+    .projects-txt{
+        font-size: 17px;
+    }
+    .project{
+        width: 440px;
+        height: 215px;
+    }
+    .project-det{
+        width: 440px;
+        height: 215px;
+    }
+    .project-heading{
+        font-size: 21px;
+    }
+    .project-text{
+        font-size: 17px;
+    }
+    .project-btn{
+        font-size: 17px;
+    }
+    .projects-btn{
+        font-size: 17px;
+    }
+}

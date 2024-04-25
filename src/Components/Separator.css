@@ -1,0 +1,17 @@
+@media only screen and (min-width:1px) {
+    .separator{
+        width: 90%;
+        height: 2px;
+        background-color: rgba(255, 255, 255, 0.158);
+        margin: 0px auto;
+    }
+}
+@media only screen and (min-width:800px) {
+    .separator{
+        display: none;
+        width: 85%;
+        height: 2px;
+        background-color: rgba(255, 255, 255, 0.158);
+        margin: 0px auto;
+    }
+}

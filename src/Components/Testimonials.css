@@ -1,0 +1,279 @@
+@media only screen and (min-width:1px) {
+    .testimonials-full{
+        width: 100vw;
+        overflow-x: hidden;
+        display: flex;
+        padding: 30px 0px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .testimonials-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        gap: 20px;
+    }
+    .testimonials-head{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+    }
+    .testimonials-txt{
+        padding: 0px 10px;
+        text-align: center;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+    .testimonials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0px 16px;
+        gap: 20px;
+    }
+    .testimonial{
+        border: 1px solid wheat;
+        background-color: rgba(49, 49, 49, 0.856);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 15px 0px;
+        border: 0.1px solid transparent;
+        border-radius: 10px;
+        gap: 20px;
+    }
+    .testimonial3{
+        display: none;
+    }
+    .test-svg{
+     width: 40px;
+    }
+    .testimonial-text{
+        padding: 0px 10px;
+        text-align: center;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+    .username{
+     width: 100%;
+     box-sizing: border-box;
+     padding: 0px 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    .user{
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(148, 186, 241);
+    }
+    .rating{
+        font-size: 14px;
+        text-shadow: 0px 0px 0.5px rgb(255, 255, 255);
+    }
+}
+@media only screen and (min-width:431px) {
+    .testimonials-head{
+        font-size: 25px;
+    }
+    .testimonials-txt{
+        font-size: 14px;
+    }
+    .testimonials{
+        padding: 0px 20px;
+    }
+    .test-svg{
+        width: 40px;
+    }
+    .testimonial-text{
+        font-size: 14px;
+    }
+    .user{
+        font-size: 14px;
+    }
+    .rating{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:600px) {
+    .testimonials-head{
+        font-size: 27px;
+    }
+    .testimonials-txt{
+        font-size: 14px;
+        padding: 0px clamp(1.25rem, -4.4033rem + 15.0754vw, 3.125rem);
+    }
+    .testimonials{
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: clamp(0.5rem, -0.8191rem + 3.5176vw, 0.9375rem);
+    }
+    .testimonial{
+        width: clamp(17.5rem, 8.0779rem + 25.1256vw, 20.625rem);
+        height: 260px;
+    }
+    .test-svg{
+        width: 45px;
+    }
+    .testimonial-text{
+        font-size: 14px;
+    }
+    .user{
+        font-size: 14px;
+    }
+    .rating{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:800px) {
+    .testimonials-head{
+        font-size: 29px;
+    }
+    .testimonials-txt{
+        font-size: 14px;
+        padding: 0px clamp(2.5rem, -5.0377rem + 15.0754vw, 4.375rem);
+    }
+    .testimonials{
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .testimonial{
+        width: clamp(15rem, 7.4623rem + 15.0754vw, 16.875rem);
+        height: 300px;
+    }
+    .testimonial3{
+        width: clamp(15rem, 7.4623rem + 15.0754vw, 16.875rem);
+        height: 300px;
+        border: 1px solid wheat;
+        background-color: rgba(49, 49, 49, 0.856);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 15px 0px;
+        border: 0.1px solid transparent;
+        border-radius: 10px;
+        gap: 25px;
+    }
+    .test-svg{
+        width: 47px;
+    }
+    .testimonial-text{
+        font-size: 14px;
+    }
+    .user{
+        font-size: 14px;
+    }
+    .rating{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .testimonials-head{
+        font-size: 32px;
+    }
+    .testimonials-txt{
+        font-size: 14px;
+        padding: 0px 60px;
+    }
+    .testimonials{
+        padding: 0px 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .testimonial{
+        width: clamp(17.5rem, 14.3593rem + 5.0251vw, 18.125rem);
+        height: 280px;
+    }
+    .testimonial3{
+        width: clamp(17.5rem, 14.3593rem + 5.0251vw, 18.125rem);
+        height: 280px;
+        border: 1px solid wheat;
+        background-color: rgba(49, 49, 49, 0.856);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 15px 0px;
+        border: 0.1px solid transparent;
+        border-radius: 10px;
+        gap: 25px;
+    }
+    .test-svg{
+        width: 50px;
+    }
+    .testimonial-text{
+        font-size: 14px;
+    }
+    .user{
+        font-size: 14px;
+    }
+    .rating{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .testimonials-txt{
+        font-size: 15px;
+    }
+    .testimonial{
+        width: 340px;
+        height: 280px;
+    }
+    .testimonial3{
+        width: 340px;
+        height: 280px;
+    }
+    .test-svg{
+        width: 55px;
+    }
+    .testimonial-text{
+        font-size: 15px;
+    }
+    .user{
+        font-size: 15px;
+    }
+    .rating{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:1400px) {
+    .testimonials-txt{
+        font-size: 17px;
+    }
+    .testimonial{
+        width: 410px;
+        height: 310px;
+    }
+    .testimonial3{
+        width: 410px;
+        height: 310px;
+    }
+    .test-svg{
+        width: 75px;
+    }
+    .testimonial-text{
+        font-size: 17px;
+    }
+    .user{
+        font-size: 17px;
+    }
+    .rating{
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,39 @@
+@media only screen and (min-width:1px) {
+    .footer-full{
+        text-align: center;
+        width: 100%;
+        padding: 15px 35px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:431px) {
+    .footer-full{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:600px) {
+    .footer-full{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:800px) {
+    .footer-full{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .footer-full{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .footer-full{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:1400px) {
+    .footer-full{
+        font-size: 17px;
+    }
+}

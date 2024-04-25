@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: rgb(32, 32, 32);
+  color: rgb(235, 235, 235);
+  overflow-x: hidden;
+  overflow-y: auto;
+  }
+.fullscreen{
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100vw;
+  
+}
+/* Define custom scrollbar styles */
+body::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: rgb(32, 32, 32); /* Color of the track */
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scroll handle */
+  border-radius: 5px; /* Rounded corners on the scroll handle */
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(117, 117, 117);
+}
+
+/* Optional: Define styles for scrollbar corners */
+body::-webkit-scrollbar-corner {
+  background: rgb(32, 32, 32); /* Color of scrollbar corners */
+}
+
+/* Optional: Define styles for scrollbar buttons (arrows) */
+body::-webkit-scrollbar-button {
+  display: none; /* Hide scrollbar buttons */
+}
