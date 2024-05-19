@@ -25,8 +25,8 @@ const Projects = () => {
                     </div>
                     <div className="project project3">
                         <div className="project-det">
-                            <h1 className="project-heading">Task Management App</h1>
-                            <p className="project-text">A task management application for organizing and tracking tasks, projects, and deadlines.</p>
+                            <h1 className="project-heading">Text Utils</h1>
+                            <p className="project-text">A text utility web app that provides to perform basic text-based functions wiht just one click.</p>
                             <button className="project-btn">View</button>
                         </div>
                     </div>
