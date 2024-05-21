@@ -36,19 +36,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className={`flow show`} style={{display: see?'flex': 'none'}}>
-                    <div className="project project3">
-                        <div className="project-det">
-                            <h1 className="project-heading">Text Utils</h1>
-                            <p className="project-text">A text utility web app that provides to perform basic text-based functions wiht just one click.</p>
-                            <button className="project-btn">View</button>
-                        </div>
-                    </div><div className="project project3">
-                        <div className="project-det">
-                            <h1 className="project-heading">Text Utils</h1>
-                            <p className="project-text">A text utility web app that provides to perform basic text-based functions wiht just one click.</p>
-                            <button className="project-btn">View</button>
-                        </div>
-                    </div>
+                   
                     </div>
                 </div>
                     <button className='projects-btn' onClick={toggleSee}>{see?'See Less':'See All'}</button>
