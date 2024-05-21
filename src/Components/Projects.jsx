@@ -1,13 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./Projects.css"
 
 const Projects = () => {
+    const [see, setSee] = useState(false)
+
+    const toggleSee = ()=>{
+        setSee(!see)
+        }
     return (
         <section id='projects' className='projects-full'>
             <div className="projects-box">
                 <h1 className="projects-head">Projects</h1>
                 <p className="projects-txt">Explore a diverse range of dynamic projects demonstrating expertise in web development.</p>
-                <div className="projects">
+                <div className="projects" >
                     <div className="project project1">
                         <div className="project-det">
                             <h1 className="project-heading">Spotify Clone</h1>
@@ -30,8 +35,23 @@ const Projects = () => {
                             <button className="project-btn">View</button>
                         </div>
                     </div>
+                    <div className={`flow show`} style={{display: see?'flex': 'none'}}>
+                    <div className="project project3">
+                        <div className="project-det">
+                            <h1 className="project-heading">Text Utils</h1>
+                            <p className="project-text">A text utility web app that provides to perform basic text-based functions wiht just one click.</p>
+                            <button className="project-btn">View</button>
+                        </div>
+                    </div><div className="project project3">
+                        <div className="project-det">
+                            <h1 className="project-heading">Text Utils</h1>
+                            <p className="project-text">A text utility web app that provides to perform basic text-based functions wiht just one click.</p>
+                            <button className="project-btn">View</button>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                    <button className='projects-btn'>See all</button>
+                    <button className='projects-btn' onClick={toggleSee}>{see?'See Less':'See All'}</button>
             </div>
         </section>
     )
