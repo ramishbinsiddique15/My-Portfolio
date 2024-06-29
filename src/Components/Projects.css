@@ -51,19 +51,19 @@
         background-color: gray;
     }
     .project1{
-        background-image: url("/src/assets/spotify-bg.png");
+        background-image: url("/assets/spotify-bg.png");
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
     }
     .project2{
-        background-image: url("/src/assets/weather-bg.jpg");
+        background-image: url("/assets/weather-bg.jpg");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
     }
     .project3{
-        background-image: url("/src/assets/text-bg.png");
+        background-image: url("/assets/text-bg.png");
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;

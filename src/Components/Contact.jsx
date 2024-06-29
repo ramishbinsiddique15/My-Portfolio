@@ -12,8 +12,8 @@ const Contact = () => {
           <a className='email-link' href="https://mail.google.com/mail/?view=cm&fs=1&to=recipient@gmail.com" target="_blank">ramishbinsiddique24@gmail.com</a>
         </div>
         <div className="other-contact">
-          <a href="https://github.com/ramishbinsiddique15" target='_blank'><img className='contacts-icon3' src="/src/assets/github-icon.ico" alt="" /></a>
-          <a href="https://www.linkedin.com/in/ramish15/" target='_blank'><img className='contacts-icon3' src="/src/assets/linkedin.png" alt="" /></a>
+          <a href="https://github.com/ramishbinsiddique15" target='_blank'><img className='contacts-icon3' src="/assets/github-icon.ico" alt="" /></a>
+          <a href="https://www.linkedin.com/in/ramish15/" target='_blank'><img className='contacts-icon3' src="/assets/linkedin.png" alt="" /></a>
         </div>
       </div>
     </section>

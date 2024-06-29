@@ -6,31 +6,31 @@ const Skills = () => {
         {
             id: 1,
             skill: "React.js",
-            skillimg: `/src/assets/react.ico`,
+            skillimg: `/assets/react.ico`,
             skilltext: `Empowers applications with lightning-fast, interactive user interfaces that engage and retain users, leading to increased engagement and satisfaction.`,
         },
         {
             id: 2,
             skill: "Tailwind CSS",
-            skillimg: `/src/assets/tailwind.png`,
+            skillimg: `/assets/tailwind.png`,
             skilltext: `Streamlines the design process with a consistent visual language, resulting in aesthetically pleasing and highly usable interfaces that captivate audiences.`,
         },
         {
             id: 3,
             skill: "Express.js",
-            skillimg: `/src/assets/express.png`,
+            skillimg: `/assets/express.png`,
             skilltext: `Enhances the performance and scalability of backend systems, ensuring smooth operation even under heavy loads, and delivering a seamless user experience.`,
         },
         {
             id: 4,
             skill: "MongoDB",
-            skillimg: `/src/assets/mongodb.png`,
+            skillimg: `/assets/mongodb.png`,
             skilltext: `Provides flexibility and agility in managing data, allowing for rapid iteration and adaptation to changing requirements, while ensuring scalability and resilience to support growth.`,
         },
         {
             id: 5,
             skill: "Next.js",
-            skillimg: `/src/assets/nextjs.ico`,
+            skillimg: `/assets/nextjs.ico`,
             skilltext: `Boosts website performance and search engine visibility by leveraging server-side rendering and optimized client-side navigation, resulting in improved load times, SEO rankings, and user engagement.`,
         },
     ]
