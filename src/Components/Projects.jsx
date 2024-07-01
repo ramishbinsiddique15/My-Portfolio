@@ -30,10 +30,9 @@ const Projects = () => {
     {
       id: 4,
       heading: 'PassBank',
-      text: 'Your own password manager.',
+      text: 'Your own password manager. It is a software application designed to store and manage online credentials.',
       link: 'https://github.com/ramishbinsiddique15/PassBank'
     },
-    // Add more projects here if needed
   ];
 
   return (
