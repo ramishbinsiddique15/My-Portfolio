@@ -19,7 +19,7 @@ const Projects = () => {
       id: 2,
       heading: 'Weather App',
       text: 'A social media platform where users can create profiles, connect with friends, share posts, photos, and engage in discussions.',
-      link: 'https://github.com/ramishbinsiddique15/PRODIGY_WD_05'
+      link: 'https://myweather-tan.vercel.app'
     },
     {
       id: 3,
@@ -33,6 +33,18 @@ const Projects = () => {
       text: 'Your own password manager. It is a software application designed to store and manage online credentials.',
       link: 'https://github.com/ramishbinsiddique15/PassBank'
     },
+    {
+      id: 5,
+      heading: 'BagElegance',
+      text: 'A fashion e-commerce website for browsing products, adding them to cart, making purchases, and managing accounts.',
+      link: 'https://bag-elegance.vercel.app'
+    },
+    {
+      id: 6,
+      heading: 'Get Me A Chai',
+      text: 'A crowdfunding platform that allows artists to obtain funding from patrons on a recurring basis.',
+      link: 'https://github.com/ramishbinsiddique15/Get-Me-A-Chai'
+    }
   ];
 
   return (
