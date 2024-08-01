@@ -44,6 +44,12 @@ const Projects = () => {
       heading: 'Get Me A Chai',
       text: 'A crowdfunding platform that allows artists to obtain funding from patrons on a recurring basis.',
       link: 'https://github.com/ramishbinsiddique15/Get-Me-A-Chai'
+    },
+    {
+      id: 7,
+      heading: 'Tic Tac Toe',
+      text: 'A simple tic-tac-toe game built using React. It is a two-player game where players take turns to mark X and O.',
+      link: 'https://github.com/ramishbinsiddique15/Tic-Tac-Toe'
     }
   ];
 
